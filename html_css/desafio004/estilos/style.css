@@ -58,6 +58,7 @@ header h1, #subtitulo
  {
     min-width: 400px;
      margin: 0 auto;
+    padding-bottom: 20px;
  }
 
 nav
