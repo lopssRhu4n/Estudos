@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+html,body
+    {
+        height: 100vh;
+    }
+
 body
     {
         font-size: 18px;
@@ -9,10 +14,21 @@ header
     {
         background-color: black;
         text-align: center;
-        height: 150px;
+        height: 30vh;
         position: relative;
     }
 
+a
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+a:hover
+    {
+        text-decoration: underline;
+        cursor: pointer;
+    }
 .titles
     {
         position: absolute;
@@ -26,15 +42,17 @@ h1,h2
     {
         color: white;
     }
-
 h1
     {
+
+        font-size: 6vw;
+        font-variant: small-caps;
         padding-top: 20px;
     }
 
 h2
     {
-        font-size: 14px;
+        font-size: 2vw;
     }
 
 h2>strong
@@ -44,24 +62,32 @@ h2>strong
 
 main p  
     {
-        margin-bottom: 20px;
-        line-height: 30px;
-        padding: 20px;
-        font-size-adjust: 0.74;
+        line-height: 2em;
+        padding-left: 20px;
+        font-size: 3vw;
+    }
+
+section
+    {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
     }
 
 .parallax_e
     {
+        background-color: darkgray;
         width: 100%;
-        height: 400px;
+        height: 80vh;
         background-size: cover;
         background-attachment: fixed;
         position: relative;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.651);
     }
 
 #parallax_1
     {
         background-image: url('../imagens/background001.jpg');
+        background-position: right center;
     }
 
 #parallax_2
@@ -71,8 +97,22 @@ main p
 
 .parallax_p
     {
+        display: inline-block;
         background-color: rgba(0, 0, 0, 0.253);
         color: white;
         position: absolute;
         top: 5%;
+        padding: 1vh;
+    }
+
+footer
+    {
+        background-color: black;
+        text-align: center;
+    }
+
+footer p
+    {
+        color: lightslategray;
+        font-size: 16px;
     }
