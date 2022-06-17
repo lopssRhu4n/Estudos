@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação com iframes</title>
+    <style>
+        body
+            {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+        iframe
+            {
+                width: 95vw;
+                height: 300px;
+                border: 1px solid black;
+            }
+    </style>
+
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quia possimus tenetur culpa perferendis esse pariatur accusantium quaerat? Nostrum fugiat id molestiae soluta. Temporibus accusamus asperiores sapiente quam doloremque facere? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, perspiciatis eos totam consequatur laudantium perferendis ad eum culpa quasi maxime explicabo dignissimos unde qui ut facere odit porro quidem minima. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quaerat soluta quas eum reprehenderit, dolorum beatae dolorem nostrum reiciendis quo placeat optio dolor? Fugiat aliquam explicabo, inventore sunt molestiae eum.</p>
+
+    <ul>
+        <li><a href="página01.html" target="frame">Página 01</a></li>
+        <li><a href="https://cursoemvideo.com" target="frame">Página 02</a></li>
+        <li><a href="https://gustavoguanabara.github.io" target="frame">Página 03</a></li>
+    </ul>
+
+    <iframe srcdoc="<h1>escolha uma das opções acima</h1>" frameborder="0" name="frame"></iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore illo cupiditate modi quis, maxime iste ea, repudiandae voluptas asperiores sequi vero, dolores itaque! Quidem animi optio tenetur, earum explicabo saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ut, ipsa adipisci est velit aspernatur exercitationem molestiae esse quia suscipit dolore obcaecati laudantium beatae, soluta facilis maiores ipsam? Temporibus, architecto!</p>
+</body>
+</html>
